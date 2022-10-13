@@ -77,7 +77,7 @@ public class Utils {
                 || !isPositiveNumeric(splittedLine[3].trim()) || !isPositiveNumeric(splittedLine[6].trim())) {
             return false;
         }
-        if (!splittedLine[4].trim().equals("true") && !splittedLine[4].trim().equals("false")) {
+        if (!splittedLine[4].trim().equals("TRUE") && !splittedLine[4].trim().equals("FALSE")) {
             return false;
         }
         if (splittedLine[4].trim().length() == 0) {
@@ -94,7 +94,7 @@ public class Utils {
                 || !isPositiveNumeric(splittedLine[4].trim()) || !isPositiveNumeric(splittedLine[6].trim())) {
             return false;
         }
-        if (!splittedLine[3].trim().equals("true") && !splittedLine[3].trim().equals("false")) {
+        if (!splittedLine[3].trim().equals("TRUE") && !splittedLine[3].trim().equals("FALSE")) {
             return false;
         }
         if (splittedLine[5].trim().length() == 0) {
